@@ -1,4 +1,4 @@
-# wsl2-debian-strecher-update-failed
+# wsl2-debian-strech-update-failed
 
 This is the solution to use in last resort
 
@@ -8,7 +8,7 @@ A potential solution is to change the apt lists, though, depending on the status
 
 Also note that sometimes, it is not possible to upgrade between versions. This, of course, depends of the context you're in.
 
-## Issue with updating WSL 2 Debian Strecher
+## Issue with updating WSL 2 Debian Strech
 
 :warning: This is to be used only when you have extracted the files you want to [backup](#backup). :warning:
 
@@ -22,7 +22,7 @@ The following error appears after attempting a `sudo apt-get update`
 The repository '<http://security.debian.org/debian-security> stretch/updates Release' does no longer have a Release file.
 ```
 
-![Failed update of debian strecher in WSL2](failed_update.png "Failed Update in Debian on WSL2")
+![Failed update of debian strech in WSL2](failed_update.png "Failed Update in Debian on WSL2")
 
 To check your verion, you can use `cat /etc/os-release`.
 
