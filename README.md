@@ -1,4 +1,4 @@
-# wsl2-debian-strech-update-failed
+# wsl2-debian-update-failed
 
 This is the solution to use in last resort
 
@@ -8,9 +8,10 @@ A potential solution is to change the apt lists, though, depending on the status
 
 Also note that sometimes, it is not possible to upgrade between versions. This, of course, depends of the context you're in.
 
-If you find yourself in the same case with the bookworm version of Debian after june 2023, then you might have to do the same....
+Next major upgrade is scheduled to be released on [June 10th](https://www.debian.org/releases/bookworm/), unknonw date of release for WSL2.
+[Information related to Debian releases](https://www.debian.org/releases/)
 
-## Issue with updating WSL 2 Debian Strech
+## Issue with updating WSL 2 Debian Strech or other end of support for Debian release for WSL2
 
 :warning: This is to be used only when you have extracted the files you want to [backup](#backup). :warning:
 
